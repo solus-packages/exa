@@ -2,15 +2,15 @@
     <Source>
         <Name>exa</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
         <Summary xml:lang="en">A modern replacement for ls</Summary>
         <Description xml:lang="en">exa is a modern replacement for ls. It uses colours for information by default, helping you distinguish between many types of files, such as whether you are the owner, or in the owning group. It also has extra features not present in the original ls, such as viewing the Git status for a directory, or recursing into directories with a tree view. exa is written in Rust, so it’s small, fast, and portable.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>exa</Name>
@@ -19,17 +19,17 @@
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/exa</Path>
+            <Path fileType="man">/usr/share/man/man1/exa.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-01-27</Date>
-            <Version>0.8.0</Version>
+        <Update release="3">
+            <Date>2019-05-17</Date>
+            <Version>0.9.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>

@@ -1,6 +1,6 @@
 name       : exa
 version    : 0.10.1
-release    : 6
+release    : 7
 source     :
     - https://github.com/ogham/exa/archive/refs/tags/v0.10.1.tar.gz : ff0fa0bfc4edef8bdbbb3cabe6fdbd5481a71abbbcc2159f402dea515353ae7c
 license    : MIT
@@ -22,7 +22,7 @@ build      : |
 install    : |
     install -Dm00755 target/release/exa -t $installdir/usr/bin
 
-    install -Dm00644 completions/completions.bash $installdir/usr/share/bash_completions/completions/exa
+    install -Dm00644 completions/completions.bash $installdir/usr/share/bash-completion/completions/exa
     install -Dm00644 completions/completions.zsh $installdir/usr/share/zsh/site-functions/_exa
     install -Dm00644 completions/completions.fish $installdir/usr/share/fish/vendor_completions.d/exa.fish
 

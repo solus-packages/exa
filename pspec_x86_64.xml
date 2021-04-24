@@ -2,8 +2,8 @@
     <Source>
         <Name>exa</Name>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
@@ -20,7 +20,7 @@
         <PartOf>system.utils</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/exa</Path>
-            <Path fileType="data">/usr/share/bash_completions/completions/exa</Path>
+            <Path fileType="data">/usr/share/bash-completion/completions/exa</Path>
             <Path fileType="data">/usr/share/fish/vendor_completions.d/exa.fish</Path>
             <Path fileType="man">/usr/share/man/man1/exa.1</Path>
             <Path fileType="man">/usr/share/man/man5/exa_colors.5</Path>
@@ -28,12 +28,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2021-04-14</Date>
+        <Update release="7">
+            <Date>2021-04-24</Date>
             <Version>0.10.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

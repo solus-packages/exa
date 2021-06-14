@@ -2,8 +2,8 @@
     <Source>
         <Name>exa</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
@@ -28,12 +28,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2021-04-24</Date>
+        <Update release="8">
+            <Date>2021-06-14</Date>
             <Version>0.10.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Update>
     </History>
 </PISI>
